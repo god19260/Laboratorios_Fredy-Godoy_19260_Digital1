@@ -1,0 +1,620 @@
+$date
+	Sun Oct 11 19:42:01 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testbench $end
+$var wire 1 ! ACCESO_1 $end
+$var wire 1 " OTRA_OPE $end
+$var wire 1 # RETIRO_M $end
+$var wire 1 $ sf3_3 $end
+$var wire 1 % sf2_3 $end
+$var wire 1 & sf2_2 $end
+$var wire 1 ' sf1_3 $end
+$var wire 1 ( sf1_2 $end
+$var wire 1 ) sf1_1 $end
+$var wire 1 * sf0_3 $end
+$var wire 1 + sf0_2 $end
+$var wire 1 , sf0_1 $end
+$var wire 1 - VALIDA_ $end
+$var wire 1 . TARJETA $end
+$var wire 1 / Solicitar_Tarjeta $end
+$var wire 1 0 Solicitar_Pin $end
+$var wire 1 1 SEL_MENU $end
+$var wire 1 2 RECIBO $end
+$var wire 1 3 OPCION_5 $end
+$var wire 1 4 OPCION_4 $end
+$var wire 1 5 OPCION_3 $end
+$var wire 1 6 OPCION_2 $end
+$var wire 1 7 OPCION_1 $end
+$var wire 1 8 MENU_1SA $end
+$var wire 1 9 MENU_0SA $end
+$var wire 1 : INVALID_ $end
+$var wire 1 ; EFECTIVO $end
+$var wire 1 < CONSULT_ $end
+$var wire 1 = ACCESO_2 $end
+$var reg 1 > A1 $end
+$var reg 1 ? A2 $end
+$var reg 1 @ A3 $end
+$var reg 1 A A4 $end
+$var reg 1 B ACCESO_1_2 $end
+$var reg 1 C ACCESO_2_1 $end
+$var reg 1 D ATRAS $end
+$var reg 1 E B1 $end
+$var reg 1 F B2 $end
+$var reg 1 G B3 $end
+$var reg 1 H B4 $end
+$var reg 1 I CANT_1 $end
+$var reg 1 J CANT_2 $end
+$var reg 1 K CANT_3 $end
+$var reg 1 L CANT_4 $end
+$var reg 1 M CANT_5 $end
+$var reg 1 N CONSULTA $end
+$var reg 1 O INVALIDO $end
+$var reg 1 P MENU_0 $end
+$var reg 1 Q MENU_1 $end
+$var reg 1 R NEXT $end
+$var reg 1 S NO $end
+$var reg 1 T OTRO_MON $end
+$var reg 1 U RETIRO $end
+$var reg 1 V SI $end
+$var reg 1 W VALIDO $end
+$var reg 1 X s0_1 $end
+$var reg 1 Y s0_2 $end
+$var reg 1 Z s0_3 $end
+$var reg 1 [ s1_1 $end
+$var reg 1 \ s1_2 $end
+$var reg 1 ] s1_3 $end
+$var reg 1 ^ s2_2 $end
+$var reg 1 _ s2_3 $end
+$var reg 1 ` s3_3 $end
+$scope module maquina_1 $end
+$var wire 1 > A1 $end
+$var wire 1 ? A2 $end
+$var wire 1 @ A3 $end
+$var wire 1 A A4 $end
+$var wire 1 a ACCESOO_1 $end
+$var wire 1 ! ACCESO_1 $end
+$var wire 1 C ACCESO_2 $end
+$var wire 1 D ATRAS $end
+$var wire 1 E B1 $end
+$var wire 1 F B2 $end
+$var wire 1 G B3 $end
+$var wire 1 H B4 $end
+$var wire 1 0 Solicitar_Pin $end
+$var wire 1 / Solicitar_Tarjeta $end
+$var wire 1 X s0_1 $end
+$var wire 1 [ s1_1 $end
+$var wire 1 , sf0_1 $end
+$var wire 1 ) sf1_1 $end
+$upscope $end
+$scope module maquina_2 $end
+$var wire 1 B ACCESO_1 $end
+$var wire 1 = ACCESO_2 $end
+$var wire 1 N CONSULTA $end
+$var wire 1 < CONSULT_ $end
+$var wire 1 P MENU_0 $end
+$var wire 1 Q MENU_1 $end
+$var wire 1 R NEXT $end
+$var wire 1 S NO $end
+$var wire 1 " OTRA_OPE $end
+$var wire 1 2 RECIBO $end
+$var wire 1 U RETIRO $end
+$var wire 1 # RETIRO_M $end
+$var wire 1 1 SEL_MENU $end
+$var wire 1 V SI $end
+$var wire 1 . TARJETA $end
+$var wire 1 Y s0_2 $end
+$var wire 1 \ s1_2 $end
+$var wire 1 ^ s2_2 $end
+$var wire 1 + sf0_2 $end
+$var wire 1 ( sf1_2 $end
+$var wire 1 & sf2_2 $end
+$upscope $end
+$scope module maquina_3 $end
+$var wire 1 B ACCESO_1 $end
+$var wire 1 I CANT_1 $end
+$var wire 1 J CANT_2 $end
+$var wire 1 K CANT_3 $end
+$var wire 1 L CANT_4 $end
+$var wire 1 M CANT_5 $end
+$var wire 1 ; EFECTIVO $end
+$var wire 1 O INVALIDO $end
+$var wire 1 : INVALID_ $end
+$var wire 1 9 MENU_0 $end
+$var wire 1 8 MENU_1 $end
+$var wire 1 R NEXT $end
+$var wire 1 S NO $end
+$var wire 1 7 OPCION_1 $end
+$var wire 1 6 OPCION_2 $end
+$var wire 1 5 OPCION_3 $end
+$var wire 1 4 OPCION_4 $end
+$var wire 1 3 OPCION_5 $end
+$var wire 1 " OTRA_OPE $end
+$var wire 1 T OTRO_MON $end
+$var wire 1 # RETIRO_M $end
+$var wire 1 V SI $end
+$var wire 1 - VALIDA_ $end
+$var wire 1 W VALIDO $end
+$var wire 1 Z s0_3 $end
+$var wire 1 ] s1_3 $end
+$var wire 1 _ s2_3 $end
+$var wire 1 ` s3_3 $end
+$var wire 1 * sf0_3 $end
+$var wire 1 ' sf1_3 $end
+$var wire 1 % sf2_3 $end
+$var wire 1 $ sf3_3 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0a
+x`
+x_
+x^
+x]
+x\
+0[
+xZ
+xY
+0X
+xW
+xV
+xU
+xT
+xS
+xR
+xQ
+xP
+xO
+xN
+xM
+xL
+xK
+xJ
+xI
+0H
+0G
+0F
+0E
+0D
+0C
+xB
+0A
+0@
+0?
+0>
+x=
+x<
+x;
+x:
+x9
+x8
+x7
+x6
+x5
+x4
+x3
+x2
+x1
+00
+1/
+x.
+x-
+0,
+x+
+x*
+0)
+x(
+x'
+x&
+x%
+x$
+x#
+x"
+z!
+$end
+#1
+0/
+1,
+10
+1>
+#2
+1E
+#3
+0,
+00
+1/
+1D
+0E
+1X
+#4
+1)
+1a
+0/
+0D
+1E
+#6
+0)
+0a
+1/
+0X
+1[
+#7
+0/
+1)
+1a
+1C
+#8
+0(
+0+
+11
+1=
+0&
+0.
+08
+02
+0<
+09
+0P
+0Q
+0S
+0V
+0R
+0U
+0N
+0B
+0Y
+0\
+0^
+#9
+01
+1+
+12
+1<
+1N
+1B
+#10
+1(
+0#
+0+
+02
+0<
+1R
+0N
+1Y
+#11
+1(
+x#
+0R
+0B
+0Y
+1\
+#12
+0(
+11
+0"
+x8
+1V
+#13
+0=
+1&
+1.
+01
+x9
+08
+1S
+0V
+#14
+1=
+11
+0(
+0#
+0&
+0.
+x"
+09
+0S
+1R
+0\
+1^
+#15
+0=
+1&
+01
+1.
+x#
+0R
+#16
+1+
+1=
+1(
+0&
+0.
+1U
+1B
+0^
+#17
+01
+1+
+1(
+0U
+0B
+1Y
+1\
+#18
+0=
+0(
+0+
+1&
+1.
+1P
+#19
+1=
+11
+0&
+0.
+0P
+1Q
+#20
+0'
+0%
+0*
+0$
+0"
+0-
+0;
+0:
+07
+06
+05
+04
+03
+0#
+0T
+0O
+0W
+0M
+0L
+0K
+0J
+0I
+0Z
+0]
+0_
+0`
+#21
+x#
+1B
+#22
+0#
+1*
+17
+1I
+#23
+1'
+16
+0*
+07
+1J
+0I
+#24
+1'
+1*
+15
+06
+1K
+0J
+#25
+1%
+0'
+0*
+14
+05
+1L
+0K
+#26
+1*
+1%
+13
+04
+1M
+0L
+#27
+0%
+1*
+17
+03
+0B
+0M
+1Z
+#28
+1'
+0*
+16
+07
+0Z
+1]
+#29
+1*
+06
+15
+1Z
+#30
+0'
+1%
+0*
+14
+05
+0Z
+0]
+1_
+#31
+1*
+04
+13
+1Z
+#32
+0*
+03
+1'
+1-
+1;
+1W
+0_
+#33
+1*
+1:
+1%
+1'
+0-
+0;
+1O
+0W
+#34
+0*
+1-
+1;
+1%
+1'
+0:
+0O
+1W
+0Z
+1]
+#35
+1*
+1%
+1:
+0-
+0;
+1O
+0W
+#36
+0*
+1-
+1;
+0:
+0O
+1W
+1Z
+#37
+1*
+1%
+1:
+0-
+0;
+1O
+0W
+#38
+0*
+1%
+1-
+1;
+0:
+0O
+1W
+0Z
+0]
+1_
+#39
+1'
+1*
+1:
+0-
+0;
+1O
+0W
+#40
+0*
+0:
+1-
+1;
+0O
+1W
+1Z
+#41
+1*
+0-
+0;
+1:
+1O
+0W
+#42
+0*
+1-
+0:
+0O
+0Z
+1]
+#43
+0'
+0%
+0-
+1$
+x"
+1R
+#44
+1'
+1%
+1*
+1:
+0$
+0"
+0R
+1Z
+#45
+0'
+0%
+0*
+0:
+x"
+1$
+1R
+#46
+x#
+0"
+0$
+1T
+0R
+#47
+1$
+x"
+0#
+0T
+0Z
+0]
+0_
+1`
+#48
+1*
+0"
+18
+1V
+#49
+1'
+0*
+19
+08
+1S
+0V
+#50
+0'
+0$
+0"
+09
+0S
+1B
+1Z
+#51
+0B
+#52
+0Z
+1]
+#53
+1B
