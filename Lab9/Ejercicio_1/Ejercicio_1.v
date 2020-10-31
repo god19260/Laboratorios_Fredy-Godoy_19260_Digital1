@@ -20,6 +20,7 @@ endmodule
 module FlipFlopD_2Bit(Dato_1, Dato_2, Clk, Reset,Enable, Q_1, Q_2);
 input Dato_1, Dato_2, Clk, Reset, Enable; 
 output Q_1,Q_2;
+wire Q_1,Q_2;
 FlipFlopD_1Bit Q1(Dato_1, Clk, Reset, Enable, Q_1);
 FlipFlopD_1Bit Q2(Dato_2, Clk, Reset, Enable, Q_2);
 endmodule 
@@ -28,6 +29,8 @@ endmodule
 module FlipFlopD_4Bit(Dato_1, Dato_2, Dato_3, Dato_4, Clk, Reset, Enable, Q_1, Q_2, Q_3, Q_4);
 input Dato_1, Dato_2,Dato_3, Dato_4, Clk, Reset, Enable; 
 output Q_1,Q_2,Q_3,Q_4;
+wire Q_1,Q_2,Q_3,Q_4;
+ 
 FlipFlopD_2Bit Q3(Dato_1,Dato_2, Clk, Reset,Enable, Q_1, Q_2);
 FlipFlopD_2Bit Q4(Dato_3,Dato_4, Clk, Reset,Enable, Q_3, Q_4);
 endmodule
