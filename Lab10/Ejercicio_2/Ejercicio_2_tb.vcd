@@ -1,0 +1,421 @@
+$date
+	Sat Nov 07 23:45:44 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testbench $end
+$var wire 1 ! Zero $end
+$var wire 4 " Salida_Bus2 [3:0] $end
+$var wire 1 # Carry $end
+$var wire 4 $ B [3:0] $end
+$var wire 4 % A [3:0] $end
+$var reg 1 & Clk $end
+$var reg 1 ' Enable_Bus1 $end
+$var reg 1 ( Enable_Bus2 $end
+$var reg 4 ) Entrada_Bus1 [3:0] $end
+$var reg 1 * Reset $end
+$var reg 3 + Seleccion_alu [2:0] $end
+$scope module modulo1 $end
+$var wire 1 & Clk $end
+$var wire 1 , Enable $end
+$var wire 1 - Enable_Acumulador $end
+$var wire 1 ' Enable_Bus1 $end
+$var wire 1 ( Enable_Bus2 $end
+$var wire 4 . Entrada_Bus1 [3:0] $end
+$var wire 1 * Reset $end
+$var wire 3 / Seleccion_alu [2:0] $end
+$var wire 1 ! Zero $end
+$var wire 4 0 Salida_Bus2 [3:0] $end
+$var wire 4 1 Salida_Alu [3:0] $end
+$var wire 1 # Carry $end
+$var wire 4 2 B [3:0] $end
+$var wire 4 3 A [3:0] $end
+$scope module Acu $end
+$var wire 1 & Clk $end
+$var wire 4 4 Dato [3:0] $end
+$var wire 1 , Enable $end
+$var wire 1 * Reset $end
+$var reg 4 5 Salida [3:0] $end
+$upscope $end
+$scope module Bus1 $end
+$var wire 1 ' Enable $end
+$var wire 4 6 Entrada [3:0] $end
+$var reg 4 7 Salida [3:0] $end
+$upscope $end
+$scope module Bus2 $end
+$var wire 1 ( Enable $end
+$var wire 4 8 Entrada [3:0] $end
+$var reg 4 9 Salida [3:0] $end
+$upscope $end
+$scope module alu $end
+$var wire 4 : A [3:0] $end
+$var wire 4 ; B [3:0] $end
+$var wire 3 < Seleccion [2:0] $end
+$var reg 5 = Output [4:0] $end
+$var reg 1 ! Zero $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0xxxx =
+bx <
+bx ;
+b0 :
+bx 9
+bx 8
+bx 7
+bx 6
+b0 5
+bx 4
+b0 3
+bx 2
+bx 1
+bx 0
+bx /
+bx .
+z-
+z,
+bx +
+1*
+bx )
+x(
+x'
+0&
+b0 %
+bx $
+0#
+bx "
+1!
+$end
+#1
+b0 "
+b0 0
+b0 9
+b0 1
+b0 4
+b0 8
+0#
+b0 $
+b0 2
+b0 7
+b0 ;
+b0 =
+1&
+1(
+1'
+b0 )
+b0 .
+b0 6
+b100 +
+b100 /
+b100 <
+0*
+#2
+b1000 "
+b1000 0
+b1000 9
+0!
+b1000 1
+b1000 4
+b1000 8
+1#
+b11000 =
+b1000 $
+b1000 2
+b1000 7
+b1000 ;
+0&
+b1000 )
+b1000 .
+b1000 6
+#3
+b1111 "
+b1111 0
+b1111 9
+b1111 1
+b1111 4
+b1111 8
+b0 $
+b0 2
+b0 7
+b0 ;
+b11111 =
+1&
+b0 )
+b0 .
+b0 6
+b0 +
+b0 /
+b0 <
+#4
+b0 "
+b0 0
+b0 9
+1!
+b0 1
+b0 4
+b0 8
+0#
+b1100 $
+b1100 2
+b1100 7
+b1100 ;
+b0 =
+0&
+b1100 )
+b1100 .
+b1100 6
+b1 +
+b1 /
+b1 <
+#5
+b1010 "
+b1010 0
+b1010 9
+0!
+b1010 1
+b1010 4
+b1010 8
+b1010 $
+b1010 2
+b1010 7
+b1010 ;
+b1010 =
+1&
+b1010 )
+b1010 .
+b1010 6
+b10 +
+b10 /
+b10 <
+#6
+b1111 "
+b1111 0
+b1111 9
+b1111 1
+b1111 4
+b1111 8
+b1111 =
+b1111 $
+b1111 2
+b1111 7
+b1111 ;
+0&
+b1111 )
+b1111 .
+b1111 6
+b11 +
+b11 /
+b11 <
+#7
+b1000 "
+b1000 0
+b1000 9
+b1000 1
+b1000 4
+b1000 8
+1#
+b1000 $
+b1000 2
+b1000 7
+b1000 ;
+b11000 =
+1&
+b1000 )
+b1000 .
+b1000 6
+b100 +
+b100 /
+b100 <
+#8
+0&
+#9
+1&
+#10
+0&
+#11
+1&
+#12
+0&
+#13
+1&
+#14
+0&
+#15
+1&
+#16
+0&
+#17
+1&
+#18
+0&
+#19
+1&
+#20
+0&
+#21
+1&
+#22
+0&
+#23
+1&
+#24
+0&
+#25
+1&
+#26
+0&
+#27
+1&
+#28
+0&
+#29
+1&
+#30
+0&
+#31
+1&
+#32
+0&
+#33
+1&
+#34
+0&
+#35
+1&
+#36
+0&
+#37
+1&
+#38
+0&
+#39
+1&
+#40
+0&
+#41
+1&
+#42
+0&
+#43
+1&
+#44
+0&
+#45
+1&
+#46
+0&
+#47
+1&
+#48
+0&
+#49
+1&
+#50
+0&
+#51
+1&
+#52
+0&
+#53
+1&
+#54
+0&
+#55
+1&
+#56
+0&
+#57
+1&
+#58
+0&
+#59
+1&
+#60
+0&
+#61
+1&
+#62
+0&
+#63
+1&
+#64
+0&
+#65
+1&
+#66
+0&
+#67
+1&
+#68
+0&
+#69
+1&
+#70
+0&
+#71
+1&
+#72
+0&
+#73
+1&
+#74
+0&
+#75
+1&
+#76
+0&
+#77
+1&
+#78
+0&
+#79
+1&
+#80
+0&
+#81
+1&
+#82
+0&
+#83
+1&
+#84
+0&
+#85
+1&
+#86
+0&
+#87
+1&
+#88
+0&
+#89
+1&
+#90
+0&
+#91
+1&
+#92
+0&
+#93
+1&
+#94
+0&
+#95
+1&
+#96
+0&
+#97
+1&
+#98
+0&
+#99
+1&
+#100
+0&
